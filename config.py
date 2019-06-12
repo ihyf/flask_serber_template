@@ -5,7 +5,7 @@ DEBUG = True
 SQLALCHEMY_DATABASE_URI_SETTINGS = {
     "default": {
         'master': [
-            'mysql+pymysql://root:123456@127.0.0.1/pox_wallet?charset=utf8',
+            'mysql+pymysql://root:123456@127.0.0.1:3306/server_db?charset=utf8mb4',
         ],
     },
 
